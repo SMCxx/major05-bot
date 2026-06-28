@@ -24,10 +24,10 @@ app.add_middleware(
 )
 
 # ============================================
-# 🔐 PASSWORD PROTECTION
+# 🔐 PASSWORD PROTECTION - YOUR CREDENTIALS
 # ============================================
-USERNAME = "admin"
-PASSWORD = "your_secure_password_123"
+USERNAME = "SMCxx05"
+PASSWORD = "TradeGold$9B"
 
 security = HTTPBasic()
 
@@ -486,7 +486,7 @@ async def security_info():
         "message": "🔐 This API is password protected",
         "auth_method": "HTTP Basic Auth + API Key",
         "example_curl": """
-curl -u admin:your_password -H "api-key: MAJOR05_SECURE_KEY_2024" https://your-app.onrender.com/api/account
+curl -u SMCxx05:TradeGold$9B -H "api-key: MAJOR05_SECURE_KEY_2024" https://your-app.onrender.com/api/account
 """
     }
 
@@ -499,6 +499,6 @@ if __name__ == "__main__":
     """)
     print(f"👤 Username: {USERNAME}")
     print(f"🔑 Password: {PASSWORD}")
-    print("\n⚠️ Change the username and password in the code!")
+    print("\n⚠️ Keep these credentials safe!")
     print("\nPress Ctrl+C to stop\n")
     uvicorn.run(app, host="0.0.0.0", port=8000)
