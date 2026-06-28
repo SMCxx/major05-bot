@@ -24,7 +24,7 @@ app.add_middleware(
 )
 
 # ============================================
-# 🔐 PASSWORD PROTECTION - YOUR CREDENTIALS
+# 🔐 EXACT CREDENTIALS - DO NOT CHANGE
 # ============================================
 USERNAME = "SMCxx05"
 PASSWORD = "TradeGold$9B"
@@ -497,8 +497,8 @@ if __name__ == "__main__":
     ║     📱 Secure access from anywhere!                      ║
     ╚═══════════════════════════════════════════════════════════╝
     """)
-    print(f"👤 Username: {USERNAME}")
-    print(f"🔑 Password: {PASSWORD}")
+    print(f"👤 Username: SMCxx05")
+    print(f"🔑 Password: TradeGold$9B")
     print("\n⚠️ Keep these credentials safe!")
     print("\nPress Ctrl+C to stop\n")
     uvicorn.run(app, host="0.0.0.0", port=8000)
