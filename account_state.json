@@ -1,0 +1,20 @@
+{
+    "peak": 1000.0,
+    "enabled": false,
+    "loss_streak": 0,
+    "cooldown": 0,
+    "daily_trades": 0,
+    "last_trade_date": "2026-06-27",
+    "pending_suggestion": "NONE",
+    "pending_approval_status": "PENDING",
+    "proposed_parameters": {},
+    "minimum_allowed_score": 7,
+    "max_daily_loss_pct": 0.02,
+    "trailing_stop_enabled": true,
+    "partial_profit_enabled": true,
+    "vix_threshold": 25.0,
+    "news_block_minutes_before": 30,
+    "news_block_minutes_after": 15,
+    "max_daily_trades": 4,
+    "high_score_risk_pct": 0.012
+}
